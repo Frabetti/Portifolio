@@ -299,6 +299,78 @@ footer p{
     margin-top: 30px;
     }
 
+    .about-tbs{
+        flex-direction: column;
+        padding-top: 80px;
+        padding-left: 0;
+        padding-right: 0;
+        padding-bottom: 10px;
+    }
+
+    .about-tbs div{
+        max-width: 80%;
+    }
+
+    .about-tbs div h2{
+        font-size: 45px;
+    }
+
+    .about-tbs img{
+    width: 80%;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    }
+
+    .about-tbs p{
+        margin-bottom: 30px;
+        }
+
+    .projects{
+        height: 70px;
+    }
+
+    .projects-list button{    
+        width: 90px ;
+        height: 60px;
+        font-size: 10px;
+        padding: 0;
+        border: 0;
+    }
+
+
+    .projects-title h2{
+        font-size: 30px;
+        width: 100%;
+        height: 100%;
+        border: 0;
+        padding: 0;
+    }
+
+    .projects-list-tbs{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        justify-content: center;
+    }
+    
+    .projects-list-tbs img{
+        width: 500%;
+        height: 500%;
+        opacity: 0.7;
+        transition: 0.9s;
+        margin-bottom: 15px;
+    }
+
+    .projects-logo img{
+        width: 150%;
+        height: 150%;
+    }
+    
+    .projects-list-tbs img:hover{
+        opacity: 1;
+    }
+    
+
 
     footer p{
         margin: 0;
