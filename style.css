@@ -347,28 +347,24 @@ footer p{
     }
 
     .projects-list-tbs{
+        height: 50vh;
         display: flex;
         align-items: center;
-        flex-direction: column;
         justify-content: center;
     }
     
-    .projects-list-tbs img{
-        width: 500%;
-        height: 500%;
-        opacity: 0.7;
-        transition: 0.9s;
-        margin-bottom: 15px;
+
+    .projects-list-tbs img:hover{
+        opacity: 1;
     }
+
 
     .projects-logo img{
         width: 150%;
         height: 150%;
     }
     
-    .projects-list-tbs img:hover{
-        opacity: 1;
-    }
+    
     
 
 
